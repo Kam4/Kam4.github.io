@@ -47,6 +47,14 @@
   box-sizing: border-box;
 }
 
+.video-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
