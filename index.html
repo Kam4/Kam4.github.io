@@ -80,7 +80,9 @@
                             </ul>
                             The research question we formulated is as follows: <b>Can we reduce the risk of shoulder surfing while
                             still maintaining desirability?</b>
-                            The preliminary studies we made can be read in LINK(section below).
+                            The preliminary studies we made can be read in <a class="js-scroll-trigger" href="#education">empirical research</a> section below and our results can be read in <a class="js-scroll-trigger" href="#final_design">final design</a> section below.
+
+
                             </p>
                             <h3 class="mb-0">Strategy</h3>
                             <p>
@@ -88,6 +90,10 @@
                                 defense strategies for pin shoulder-surfing</i> by <a class="js-scroll-trigger" href="#learnings">Khan, H et al.</a>, which claims that one of the biggest defenses is to hide the 
                                 input overall from the potential attackers. This pointed us in the direction of looking at how we can tell the user that 
                                 he/she is performing actions without looking at the screen, which in turn led us to haptic feedback for the unlocking process.
+                            <br /> <br />
+                                Couple the haptic feedback together with our innovate authentaction solution, the user with a little bit of training, 
+                                is able to unlock the application without looking at the screen. This goes in line with what was said in the aforementioned paragraph.
+
                             </p>
                         </div>
                     </div>
@@ -190,11 +196,37 @@
                                     The flow of the application is built as shown below.
                             </div>
                             <p>
-                                Paragraph here
+                                As can be seen in the figure below, the flow of the application is as follows:
+                                <ul>
+                                    <li>We start at the lock screen (lockFragment) when starting the application.</li>
+                                    <li>If we have not set a password before (first time starting the application), we get the set lock screen (lockNotSetFragment).</li>
+                                    <li>After the lock screen, we end up in the main screen of the application (menuFragment), this is where you can view your notes.</li>
+                                    <li>If you want to create a new note, then you press the floating action button (FAB) and you will end up in the create note screen (createNoteFragment).</li>
+                                    <li>From the main screen of the application you can also press the three dot menu in the toolbar to go to set lock screen, to possibly change your unlocking sequence.</li> 
+                                </ul>
                             </p>
                             <div class="flex-shrink-0">
                                 <img class="flex-shrink-0" src="assets/mobile_navigation.png" ></img>
                             </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Results</h3>
+                            <div class="subheading mb-3" >
+                                Here we go through the results of our findings
+                            </div>
+                            <p>
+                                At the beginning of development, the authentication method was heavily prioritized since it was the primary focus of our project.
+                                However due to additional requirements, regarding what the authentication mechanism was protecting, 
+                                our efforts went even more towards development then what was first planned. This affected the time nescessary to perform empirical research to properly answer 
+                                the research question that we had formulated.
+                                <br /> <br />
+                                What we can say, due to our preliminary empirical research, we do belive that it is possible to reduce 
+                                the risk of shoulder surfing whilst maintaining desirability. However more empirical research is needed 
+                                to conclude such a statement and given more time we would perform more research.
+                            </p>
                         </div>
                     </div>
                 </div>
